@@ -76,4 +76,5 @@ textarea {
   color: var(--textColor);
   text-align: left;
   margin: 0px;
+  padding: 10px;
 }
