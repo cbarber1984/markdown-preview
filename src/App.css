@@ -1,0 +1,79 @@
+:root {
+  --pageBgColor: #fcbf49;
+  --boxBgColor: #eae2b7;
+  --toolbarColor: #d62828;
+  --textColor: #003049;
+  --textBoxColor: coral;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--pageBgColor);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#App {
+  background-color: var(--pageBgColor);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  justify-content: center;
+  margin: 0px;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+#editorWrap {
+  max-width: 500px;
+  max-height: 700px;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 0px;
+  background-color: var(--boxBgColor);
+  color: var(--textColor);
+}
+* {
+  box-sizing: border-box;
+}
+
+.previewWrap {
+  background-color: var(--boxBgColor);
+  padding: 0px;
+  margin: 15px;
+}
+
+.toolbar {
+  background-color: var(--toolbarColor);
+  color: var(--textColor);
+  font-weight: 700;
+  margin: 0px;
+}
+
+#preview {
+  background-color: var(--boxBgColor);
+  color: var(--textColor);
+  text-align: left;
+  margin: 0px;
+}
